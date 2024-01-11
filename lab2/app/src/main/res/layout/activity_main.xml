@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:paddingTop="20sp"
+    android:orientation="vertical"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:layout_width="250dp"
+       android:layout_height="100dp"
+       android:src="@drawable/avata"
+      />
+   <EditText
+       android:id="@+id/inputtext"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:hint="Nhập tên của bạn"
+      />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:text="Giới tính của bạn"
+      android:textSize="20dp"
+      />
+   <RadioGroup
+       android:id="@+id/radiogroup"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+      <RadioButton
+          android:id="@+id/radiobtn1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Nam " />
+
+      <RadioButton
+          android:id="@+id/radiobtn2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Nữ " />
+   </RadioGroup>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Sở thích của bạn"
+       android:textSize="20dp"
+       />
+   <LinearLayout
+       android:id="@+id/checkboxgroup"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+      <CheckBox
+          android:id="@+id/cb1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:text="Âm nhạc"/>
+      <CheckBox
+          android:id="@+id/cb2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Du lịch"/>
+      <CheckBox
+          android:id="@+id/cb3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Thể thao"/>
+   </LinearLayout>
+   <Button
+       android:id="@+id/bnt"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:text="LƯU DỮ LIỆU"/>
+   <TextView
+       android:id="@+id/test"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:textSize="20dp"/>
+
+</LinearLayout>
