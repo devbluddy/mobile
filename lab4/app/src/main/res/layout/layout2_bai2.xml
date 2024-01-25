@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ho va ten sinh vien la"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:textColor="#30c"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/output2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#f00"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bao diem cho sinh vien:"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:id="@+id/inputl2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Nhap so diem cua sinh vien ..."
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/l2b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thong bao"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

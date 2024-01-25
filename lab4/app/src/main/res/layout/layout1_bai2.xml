@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ho va ten cua ban la gi ?"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:textColor="#30c"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/inputl1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Nhap vao ten cua ban ..."
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/l1b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gui"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diem cua ban la:"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/output1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_gravity="center"
+        android:textSize="50dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#f00"
+        />
+</LinearLayout>
