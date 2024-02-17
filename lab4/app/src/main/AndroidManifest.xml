@@ -21,6 +21,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondActivity"/>
+        <activity android:name=".Mainb2"/>
+        <activity android:name=".Secondb2"/>
     </application>
 
 </manifest>

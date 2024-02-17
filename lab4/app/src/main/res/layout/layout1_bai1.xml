@@ -20,4 +20,12 @@
         android:textSize="25dp"
         android:layout_marginStart="25dp"
         />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Go to less 2"
+        android:textSize="25dp"
+        android:layout_marginStart="25dp"
+        />
 </LinearLayout>
