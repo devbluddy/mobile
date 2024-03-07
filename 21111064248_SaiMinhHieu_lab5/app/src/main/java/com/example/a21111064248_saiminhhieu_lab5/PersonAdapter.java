@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -31,8 +32,8 @@ public class PersonAdapter extends ArrayAdapter<Person> {
         if (convertView == null) {
             convertView= LayoutInflater.from(getContext()).inflate(R.layout.spinner_item,parent,true);
         }
-        ImageView imageViewPerson = convertView.findViewById(R.id.imageViewspinner);
-        TextView textViewPerson = convertView.findViewById(R.id.textViewspinner);
+        ImageView imageViewPerson = convertView.findViewById(R.id.imageViewSpinner);
+        TextView textViewPerson = convertView.findViewById(R.id.textViewSpinner);
 
         Person person= getItem(position);
         if (person != null){

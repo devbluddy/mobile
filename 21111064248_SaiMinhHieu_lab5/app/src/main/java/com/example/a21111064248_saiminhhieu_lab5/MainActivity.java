@@ -33,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
         spinnerPerson.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                Person seclectedPerson = personAdapter.getItem(position);
-                if(seclectedPerson != null){
-                    String seclectedName = seclectedPerson.getNamePerson();
-                    Toast.makeText(MainActivity.this, "Ban da chon "+seclectedName,Toast.LENGTH_SHORT).show();
+                Person selectedPerson = personAdapter.getItem(position);
+                if(selectedPerson != null){
+                    String selectedName = selectedPerson.getNamePerson();
+                    Toast.makeText(MainActivity.this, "Ban da chon "+selectedName,Toast.LENGTH_SHORT).show();
                 }
             }
 

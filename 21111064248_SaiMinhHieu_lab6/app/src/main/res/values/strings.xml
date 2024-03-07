@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">21111064248_SaiMinhHieu_lab6</string>
+    <string name="navigation_drawer_open">mo navigation drawer</string>
+    <string name="navigation_drawer_close">dong navigation drawer</string>
+</resources>

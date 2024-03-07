@@ -2,20 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
-    >
-
+    android:orientation="horizontal">
     <ImageView
-        android:id="@+id/imageViewspinner"
+        android:id="@+id/imageViewSpinner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleType="centerCrop"
-        />
+        android:scaleType="centerCrop"/>
     <TextView
-        android:id="@+id/textViewspinner"
+        android:id="@+id/textViewSpinner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:textSize="30dp"
-        />
+        android:textSize="30dp"/>
 </LinearLayout>
