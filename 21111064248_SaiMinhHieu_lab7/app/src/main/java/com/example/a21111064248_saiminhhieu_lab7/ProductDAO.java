@@ -65,8 +65,8 @@ public class ProductDAO {
                 do {
                     productArrayList.add(new Product(cursor.getInt(0),//Mã sản phẩm kiểu int
                                                         cursor.getString(1),//Tên sản phẩm kiểm String
-                                                        cursor.getInt(2),//Số lượng sản phẩm kiểu int
-                                                        cursor.getLong(3)));//Giá sản phẩm kiểu long
+                                                        cursor.getLong(2),//Số lượng sản phẩm kiểu int
+                                                        cursor.getInt(3)));//Giá sản phẩm kiểu long
 
                 }while (cursor.moveToNext());
             }
