@@ -9,8 +9,11 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
 
 import com.google.android.material.navigation.NavigationView;
+
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,14 +26,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        drawer=findViewById(R.id.drawer_layout);
+        drawer = findViewById(R.id.drawer_layout);
 
-        toolbar=findViewById(R.id.toolsbar);
+        toolbar = findViewById(R.id.toolsbar);
 
         setSupportActionBar(toolbar);
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar,R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
 
         drawer.addDrawerListener(toggle);
         toggle.syncState();
@@ -38,8 +41,9 @@ public class MainActivity extends AppCompatActivity {
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {return true   ;}
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                return true;
+            }
         });
-
     }
 }
